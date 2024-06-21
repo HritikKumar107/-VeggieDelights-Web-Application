@@ -184,7 +184,7 @@ export default function Login() {
                         </form>
 
                         <div id="line11" className="form-group mb-3" style={{ 'textAlign': 'right' }} >
-                          <button type="button" className="btn btn-link" ><Link to={"/forget"}>Logout Password</Link></button>
+                          <button type="button" className="btn btn-link" ><Link to={"/forget"}>Forget Password</Link></button>
                         </div>
 
                       </div>

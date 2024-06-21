@@ -21,13 +21,13 @@ export default function Footer(){
                     <h4 id="line3" style={{fontSize:"28px"}} className="text-light mb-4">Address</h4>
                     <p id="line7"><i className="fa fa-map-marker-alt me-3"></i>72-A/Block, Model House,Jalandhar, Punjab-144003</p>
                     <p id="line7"><i className="fa fa-phone-alt me-3"></i>+(91)7657860413</p>
-                    <p id="line7"><i className="fa fa-envelope me-3"></i>Hritikk256@gmail.com</p>
+                    <p id="line7"><a href="mailto: Hritikk256@gmail.com"><i className="fa fa-envelope me-3"></i>Hritikk256@gmail.com</a></p>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h4 id="line3" style={{fontSize:"28px"}} className="text-light mb-4">Quick Links</h4>
                     <Link id="line7" className="btn btn-link" to={'/about'}>About Us</Link>
                     <Link id="line7" className="btn btn-link" to={'/contact'}>Contact Us</Link>
-                    <Link id="line7" className="btn btn-link" to={'/'}>Our Services</Link>
+                    <Link id="line7" className="btn btn-link" to={'/features'}>Our Services</Link>
                     <Link id="line7" className="btn btn-link" to={'/'}>Terms & Condition</Link>
                     <Link id="line7" className="btn btn-link" to={'/'}>Support</Link>
                 </div>

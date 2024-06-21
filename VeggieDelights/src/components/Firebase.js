@@ -4,14 +4,14 @@ import { getStorage } from "firebase/storage"
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC5d2ECwJDfx5zdJK7gwQUGs2DEGKsU61o",
-    authDomain: "hritik-veg-food.firebaseapp.com",
-    projectId: "hritik-veg-food",
-    storageBucket: "hritik-veg-food.appspot.com",
-    messagingSenderId: "407604261788",
-    appId: "1:407604261788:web:e3beadfdef292d00034e59",
-    measurementId: "G-80NEJRV04V"
-  };
+  apiKey: "AIzaSyBSMcEU0S5A2kV6pvzboLk6u-KR0DeeNw0",
+  authDomain: "hritik-veg-food.firebaseapp.com",
+  projectId: "hritik-veg-food",
+  storageBucket: "hritik-veg-food.appspot.com",
+  messagingSenderId: "407604261788",
+  appId: "1:407604261788:web:e3beadfdef292d00034e59",
+  measurementId: "G-80NEJRV04V"
+};
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
